@@ -1,0 +1,7 @@
+import numpy as np
+sequence_of_integers = np.arange(5, 12)
+print(sequence_of_integers)
+random_integers_between_50_and_100 = np.random.randint(low=50, high=101, size=(6))
+print(random_integers_between_50_and_100)
+random_floats_between_0_and_1 = np.random.random([19])
+print(random_floats_between_0_and_1)
